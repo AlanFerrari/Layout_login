@@ -4,60 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_marginBottom="60dp"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entrar"
-        android:textSize="30sp"
         android:layout_margin="20dp"
-        />
-    <TextView
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:hint="Insira seu email"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:inputType="textEmailAddress"
-        android:drawableEnd="@drawable/ic_twotone_person"
-        />
+        android:text="Entrar"
+        android:textColor="#F08080"
+        android:textSize="30sp" />
 
     <TextView
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Insira sua senha"
-        android:textSize="25sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:drawableRight="@drawable/ic_twotone_person"
+        android:hint="Insira seu email"
+        android:inputType="textEmailAddress"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:drawableRight="@drawable/ic_twotone_lock_open"
+        android:hint="Insira sua senha"
         android:inputType="numberPassword"
-        android:drawableEnd="@drawable/ic_twotone_lock_open"
-        />
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="25sp" />
 
     <Button
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="60dp"
-        android:layout_marginLeft="60dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="75dp"
+        android:background="#F08080"
         android:text="Entrar"
-        />
+        android:textColor="#fff"
+        android:textSize="20sp" />
 
     <TextView
-        android:layout_margin="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ou"
-        android:textSize="25sp"
+        android:layout_margin="40dp"
         android:gravity="center_horizontal"
-        />
+        android:text="ou"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:background="#1877F2"
+        android:text="Entrar com Facebook"
+        android:textColor="#fff"
+        android:textSize="20sp" />
 
 </LinearLayout>
